@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body
 {
 	background-image: url(bckgrnd.jpg);
@@ -12,10 +11,17 @@ body
 	text-align: center;
 	float: left;
 }
+.button41 
+{
+	width: 100%;
+	margin : auto;
+	text-align: center;
+	float: left;
+}
 .button4 button
 {
 	width: 170px;
-    margin-top: 300px;
+    margin-top: 30px;
 	background: #FFFFFF;
 	border-radius: 20px;
 	padding:10px;
@@ -30,6 +36,19 @@ body
 	background: #FA9326;
 	color: #FFFFFF;
 }
+.button41 button
+{
+	width: 170px;
+    margin-top: 300px;
+	background: #FFFFFF;
+	border-radius: 20px;
+	padding:10px;
+	color: #FA9326;
+	border:1px solid #FA9326;
+	font: 14px Helvetica, sans-serif;
+	font-weight: lighter;
+	cursor: auto;
+}
 .button5
 {
 	width: 100%;
@@ -40,9 +59,9 @@ body
 .button5 button
 {
     width: 105px;
-    margin-top: 30px;
+    margin-top: 0px;
 	background: #FCB040;
-	padding:6px;
+	padding:7px;
 	color: #FFFFFF;
 	border:1px solid #FCB040;
 	font: 12px Helvetica, sans-serif;
@@ -53,54 +72,14 @@ body
 	background: #FA9326;
 	border:1px solid #FA9326;
 }
-=======
-body{
-	background-image: url("backgr.png");
-	background-repeat: no-repeat;
-	background-size: 100%
 
+.triangle-up {
+	width: 0;
+	height: 0;
+	margin-top: 28px;
+	margin-left: 718px;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-bottom: 7px solid #FCB040;
 }
-
-.button6{
-	font-family: Helvetica;
-	font-weight: 500;
 	
-	color: #303030;
-	display: inline-block;
-	outline: none;
-	text-align: center;
-	text-decoration: none;
-	padding: .5em 2em .55em;
-	border-radius: 2em;
-	background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f9f9f9));
-	background: -moz-linear-gradient(top,  #fcfcfc,  #f9f9f9);
-	box-shadow: inset 0 -1px 0.5px rgba(0,0,0,0.5),inset 0 1px 1px rgba(255,255,255,0.8);
-}
-
-.button7{
-	font-family: Helvetica;
-	font-weight: 300;
-	color: #ffffff;
-	display: inline-block;
-	outline: none;
-	text-align: center;
-	text-decoration: none;
-	padding: .5em 2em .55em;
-	border-radius: 2em;
-	background: #3d3d3d;
-	opacity: 0.7;
-	margin-top: 10px;
-	box-shadow: inset 0 -1px 1px rgba(0,0,0,0.5),inset 0 0.5px 0.5px rgba(255,255,255,0.2);
-}
-
-.button9-text{
-	opacity: 1;
-}
-
-.buttongroup{
-	width:100%;
-	float:left;
-	margin-left: 600px;
-	margin-top: 400px;
-}
->>>>>>> 00eb62fdef30113bbf40864bd3b6feab7beb5090
