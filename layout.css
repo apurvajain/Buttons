@@ -38,7 +38,7 @@ span {
     margin-top: 0px;
     padding: 15px;
     border: 1px solid #FCA129;
-    font-weight: 400;
+
 }
 .button11 {
     background: linear-gradient(#FA8524, #EB5F1D);
@@ -46,11 +46,13 @@ span {
     border-top-left-radius: 25px;
     margin-right: -15px;
     box-shadow-left: 0px 0px 0px 5px rgba(0, 0, 0, 0.2);
+        font-weight: 400;
 }
 ::-webkit-input-placeholder {
     color: #892A0C;
     font-style: italic;
     font-size: 14px;
+
 }
 .button12 {
     background: linear-gradient(#FB9F27, #F67E24);
@@ -58,16 +60,18 @@ span {
     border-top-right-radius: 25px;
     margin-left: -15px;
     box-shadow-right: 0px 0px 0px 5px rgba(0, 0, 0, 0.2);
+     
 }
 .button2 {
-    border-radius: 20px;
-    width: 100px;
+    border-radius: 25px;
+    width: 110px;
     margin: auto;
     padding: 15px;
     border: none;
-    background: linear-gradient(#FD9C28, #F47922);
+    background: linear-gradient(#FD9C28, #EB5F1D);
     cursor: pointer;
-    box-shadow: inset 0 -0.5px 0.5px #F6B544, inset 0 1px 1px #F47922;
+    box-shadow: inset 0 -0.5px 0.5px #F47922, inset 0 1px 1px #F6B560;
+    text-shadow: 0px -1px #787878;
 }
 .button3 {
     border-radius: 20px;
@@ -121,16 +125,23 @@ span {
 }
 .triangle-up {
     position: relative;
-    left: 50%;
+    left: 49.6%;
     top: 10%;
     width: 0;
     height: 0;
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
     border-bottom: 7px solid #FCB040;
-}
+}	
 .triangle-up:hover {
-    border-bottom: 7px solid #F;
+	    position: relative;
+    left: 49.6%;
+    top: 10%;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #FA9326;
 }
 .button6 {
     width: 100%;
@@ -171,13 +182,12 @@ span {
     text-decoration: none;
     border-radius: 20px;
     padding: .5em 2.5em .55em;
-
     background: #3d3d3d;
     opacity: 0.6;
     box-shadow: inset 0 -0.5px 0.5px rgba(0, 0, 0, 0.1), inset 0 0.5px 0.5px rgba(255, 255, 255, 0.2);
     border: none;
     font-size: 16px;
-    color:white;
+    color: white;
 }
 .button8 {
     width: 100%;
@@ -198,13 +208,14 @@ span {
 }
 .triangle-up1 {
     position: relative;
-    left: 50%;
-    margin: 0px;
+    top: 50%;
+    left: 49.7%;
     width: 0;
     height: 0;
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
-    border-bottom: 7px solid #E7E4E1;
+    z-index: 1;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #F1F1F1;
     background: linear-gradient(#FDFDFF, #FDFDFF);
 }
 .box {
@@ -212,17 +223,15 @@ span {
 }
 input.switch:empty {
     display: none;
-
 }
 input.switch:empty ~ label {
-
     float: left;
     line-height: 1.6em;
     text-indent: 4em;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     left: 48%;
-    top: 65%;
+    top: 83%;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -234,7 +243,7 @@ input.switch:empty ~ label:before, input.switch:empty ~ label:after {
     top: 0;
     bottom: 0;
     left: 0;
-    content: "off";
+    content: "Off";
     width: 3.6em;
     text-indent: 1em;
     color: #000;
@@ -257,7 +266,6 @@ input.switch:empty ~ label:after {
     -webkit-transition: all 100ms ease-in;
     transition: all 100ms ease-in;
 }
-
 input.switch:checked ~ label:before {
     content: "On";
     text-indent: -1em;
@@ -276,10 +284,8 @@ input.switch:focus ~ label {
 input.switch:focus ~ label:before {
     box-shadow: 0 0 0 1px #999;
 }
-.toggle{
-	float:left;
-	width: 100%;
-	margin: auto;
+.toggle {
+    float: left;
+    margin-top: 20px;
 }
-
 >>>>>>> 93342537b5687f190e5c12e089f27f6df51b874a
