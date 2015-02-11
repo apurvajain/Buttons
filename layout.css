@@ -11,13 +11,6 @@ body
 	text-align: center;
 	float: left;
 }
-.button41 
-{
-	width: 100%;
-	margin : auto;
-	text-align: center;
-	float: left;
-}
 .button4 button
 {
 	width: 170px;
@@ -36,19 +29,7 @@ body
 	background: #FA9326;
 	color: #FFFFFF;
 }
-.button41 button
-{
-	width: 170px;
-    margin-top: 300px;
-	background: #FFFFFF;
-	border-radius: 20px;
-	padding:10px;
-	color: #FA9326;
-	border:1px solid #FA9326;
-	font: 14px Helvetica, sans-serif;
-	font-weight: lighter;
-	cursor: auto;
-}
+
 .button5
 {
 	width: 100%;
@@ -56,10 +37,10 @@ body
 	text-align: center;
 	float: left;
 }
+
 .button5 button
 {
     width: 105px;
-    margin-top: 0px;
 	background: #FCB040;
 	padding:7px;
 	color: #FFFFFF;
@@ -67,19 +48,57 @@ body
 	font: 12px Helvetica, sans-serif;
 	cursor: auto;
 }
-.button5 :hover
+.button5 button:hover
 {
 	background: #FA9326;
 	border:1px solid #FA9326;
 }
 
 .triangle-up {
+	position: relative;
+	left: 50%;
+	top: 10%;
 	width: 0;
 	height: 0;
-	margin-top: 28px;
-	margin-left: 718px;
 	border-left: 3px solid transparent;
 	border-right: 3px solid transparent;
 	border-bottom: 7px solid #FCB040;
 }
-	
+.triangle-up:hover
+{
+	border-bottom: 7px solid #F;
+}
+
+.button8
+{
+	width: 100%;
+	margin : auto;
+	text-align: center;
+	float: left;
+}
+
+.button8 button
+{
+    width: 105px;
+	background: #F1F1F1;
+	padding:7px;
+	color: black;
+	border:1px solid #F1F1F1;
+	font: 12px Helvetica, sans-serif;
+	cursor: auto;
+}
+.triangle-up1 {
+	position: relative;
+	left: 50%;
+	top: 10%;
+	width: 0;
+	height: 0;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-bottom: 7px solid #F1F1F1;
+}
+
+.box
+{
+	margin-top: 30px;
+}
